@@ -38,6 +38,7 @@ body {
 	font-family: "Work Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #fff;
 }
 
 h1,
@@ -47,7 +48,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #fff;
 	font-weight: 400;
 	font-family: "Work Sans", sans-serif;
 }
@@ -1122,11 +1123,99 @@ ol {
   Footer
 -----------------------*/
 
+.footer{
+	background-color: #080134;
+	border-top: 3px solid #2A305E;
+	padding: 70px 0;
+  }
+  
+  .container-foot{
+	max-width: 1170px;
+	margin:auto;
+  }
+  
+  .row{
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .footer ul{
+	color: #fff;
+	list-style: none;
+  }
+  
+  .footer-col{
+	width: 25%;
+	padding: 0 15px;
+  }
+  
+  .footer-col h4{
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+  }
+  
+  .footer-col h4::before{
+	content:'';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: orange;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+  }
+  
+  .footer-col ul li::not(:last-child){
+	margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a{
+	  font-size: 18px;
+	  text-transform: capitalize;
+	  color: #fff;
+	  text-decoration: none;
+	  font-weight: 300;
+	  color: #bbb;
+	  display: block;
+	  transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover{
+	color: aqua;
+	padding-left: 10px;
+  }
+  
+  .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin-right: 10px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #fff;
+  }
+
+/*
 .footer-section {
-	background: #171822;
+	background: #273469;
 	padding-top: 50px;
 	padding-bottom: 60px;
+	border-top:3px solid #80a4ed;
 }
+
 
 .partner-logo {
 	padding-bottom: 50px;
@@ -1218,6 +1307,7 @@ ol {
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
 }
+*/
 
 /* ----------------------------------- Other Pages Styles ------------------------------- */
 
@@ -2346,6 +2436,11 @@ ol {
 	.member-item {
 		width: 33.33%;
 	}
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+		margin-left: 30px;
+	  }
 }
 
 /* Large Mobile: 480px */
@@ -2494,4 +2589,9 @@ ol {
 		line-height: 35px;
 		margin-left: 5px;
 	}
+	.footer-col{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-left: 30px;
+	  }
 }
