@@ -411,20 +411,13 @@ ol {
 }
 
 .hero-section .hero-text span {
-  font-size: 16px;
-  color: #f44949;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	font-size: 6rem;
+	color: #80A4ED;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
-.hero-section .hero-text h2 {
-  font-size: 60px;
-  color: #ffffff;
-  line-height: 72px;
-  font-weight: 600;
-  margin-top: 24px;
-  margin-bottom: 35px;
-}
+
 
 /*---------------------
   Conter
@@ -2538,152 +2531,268 @@ ol {
 /* Large Mobile: 480px */
 
 @media only screen and (max-width: 767px) {
-  .counter-section .cd-timer .cd-item {
-    margin-bottom: 10px;
-  }
-  .member-item {
-    width: 50%;
-  }
-  .newslatter-inner {
-    padding: 60px 50px 48px;
-  }
-  .newslatter-inner .ni-form {
-    width: 350px;
-  }
-  .footer-text ul li {
-    margin-right: 15px;
-  }
-  .schedule-table-tab .schedule-table-content {
-    overflow-x: auto;
-  }
-  .schedule-table-tab .nav-tabs .nav-item {
-    width: 33.33%;
-  }
-  .bd-text .bd-tag-share .tag {
-    float: none;
-    margin-top: 0;
-    margin-bottom: 25px;
-  }
-  .bd-text .bd-tag-share .s-share {
-    float: none;
-  }
-  .slicknav_menu {
-    display: block;
-    background: transparent;
-    padding: 0;
-  }
-  .nav-menu .mainmenu {
-    display: none;
-  }
-  .nav-menu .primary-btn.top-btn {
-    display: none;
-  }
-  .slicknav_btn {
-    margin: 34px 0;
-    border-radius: 0;
-  }
-  .slicknav_nav {
-    background: #222;
-  }
-  .slicknav_nav .slicknav_row,
-  .slicknav_nav a {
-    margin: 0;
-    padding: 10px 20px;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .slicknav_nav ul {
-    margin: 0;
-  }
-  .slicknav_nav a:hover {
-    border-radius: 0;
-    background: #f44949;
-    color: #ffffff;
-  }
-  .slicknav_nav .slicknav_row:hover {
-    border-radius: 0;
-    background: #f44949;
-    color: #ffffff;
-  }
-  .member-item .mi-text {
-    left: -1000px;
-  }
-  .bh-text h2,
-  .hero-section .hero-text h2 {
-    font-size: 40px;
-    line-height: normal;
-  }
-  .counter-section .cd-timer .cd-item {
-    margin-right: 10px;
-    margin-left: 0;
-  }
-  .counter-section .cd-timer .cd-item:last-child {
-    margin-right: 0;
-  }
-  .testimonial-slider.owl-carousel {
-    text-align: center;
-  }
-  .testimonial-slider.owl-carousel .owl-nav button {
-    margin-top: 10px;
-    position: relative;
-  }
+	.counter-section .cd-timer .cd-item {
+		margin-bottom: 10px;
+	}
+	.member-item {
+		width: 50%;
+	}
+	.newslatter-inner {
+		padding: 60px 50px 48px;
+	}
+	.newslatter-inner .ni-form {
+		width: 350px;
+	}
+	.footer-text ul li {
+		margin-right: 15px;
+	}
+	.schedule-table-tab .schedule-table-content {
+		overflow-x: auto;
+	}
+	.schedule-table-tab .nav-tabs .nav-item {
+		width: 33.33%;
+	}
+	.bd-text .bd-tag-share .tag {
+		float: none;
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+	.bd-text .bd-tag-share .s-share {
+		float: none;
+	}
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+		padding: 0;
+	}
+	.nav-menu .mainmenu {
+		display: none;
+	}
+	.nav-menu .primary-btn.top-btn {
+		display: none;
+	}
+	.slicknav_btn {
+		margin: 34px 0;
+		border-radius: 0;
+	}
+	.slicknav_nav {
+		background: #222;
+	}
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		margin: 0;
+		padding: 10px 20px;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.slicknav_nav ul {
+		margin: 0;
+	}
+	.slicknav_nav a:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+	.member-item .mi-text {
+		left: -1000px;
+	}
+	
+	.counter-section .cd-timer .cd-item {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+	.counter-section .cd-timer .cd-item:last-child {
+		margin-right: 0;
+	}
+	.testimonial-slider.owl-carousel {
+		text-align: center;
+	}
+	.testimonial-slider.owl-carousel .owl-nav button {
+		margin-top: 10px;
+		position: relative;
+	}
 }
 
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
-  .bh-text h2,
-  .hero-section .hero-text h2 {
-    font-size: 36px;
-    line-height: normal;
+	.bh-text h2,
+	
+	.newslatter-inner {
+		padding: 60px 20px 48px;
+	}
+	.counter-section .cd-timer .cd-item {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+	.schedule-tab .nav-tabs .nav-item {
+		width: 33.33%;
+	}
+	.member-item {
+		width: 100%;
+	}
+	.newslatter-inner .ni-form {
+		width: 100%;
+	}
+	.newslatter-inner .ni-form button {
+		width: 95px;
+	}
+	.newslatter-inner .ni-form input {
+		padding-right: 100px;
+	}
+	.footer-text ul li {
+		margin-bottom: 10px;
+	}
+	.schedule-table-tab .nav-tabs .nav-item {
+		width: 50%;
+	}
+	.cc-text {
+		padding-left: 30px;
+		padding-top: 35px;
+	}
+	.story-item h2 {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.bd-text .bd-tag-share .s-share a {
+		font-size: 14px;
+		height: 35px;
+		width: 35px;
+		line-height: 35px;
+		margin-left: 5px;
+	}
+	.footer-col{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-left: 30px;
+	  }
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: left;
   }
-  .newslatter-inner {
-    padding: 60px 20px 48px;
+  
+  .website {
+	text-align: left;
+	width: 30ch;
+	animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	color: #fff;
+	-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+	box-shadow: #000;
+	overflow-wrap: break-word;
+	font-style: bold;
+	overflow: hidden;
+	border-right: 3px solid;
+
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4em;
   }
-  .counter-section .cd-timer .cd-item {
-    margin-right: 10px;
-    margin-left: 0;
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
   }
-  .schedule-tab .nav-tabs .nav-item {
-    width: 33.33%;
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent}
   }
-  .member-item {
-    width: 100%;
+
+  .hero-text h6{
+	padding-bottom: 1.5em;
+	padding-top: 1em;
   }
-  .newslatter-inner .ni-form {
-    width: 100%;
-  }
-  .newslatter-inner .ni-form button {
-    width: 95px;
-  }
-  .newslatter-inner .ni-form input {
-    padding-right: 100px;
-  }
-  .footer-text ul li {
-    margin-bottom: 10px;
-  }
-  .schedule-table-tab .nav-tabs .nav-item {
-    width: 50%;
-  }
-  .cc-text {
-    padding-left: 30px;
-    padding-top: 35px;
-  }
-  .story-item h2 {
-    float: none;
-    margin-bottom: 10px;
-  }
-  .bd-text .bd-tag-share .s-share a {
-    font-size: 14px;
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    margin-left: 5px;
-  }
-  .footer-col {
-    width: 100%;
-    margin-bottom: 10px;
-    margin-left: 30px;
-  }
+
+
+  .underlined {
+	/*   background: red; */
+	  position: relative;
+	}
+	
+	.underline-mask:after {
+	  content: 'F';
+	  position: absolute;
+	  top: 95%;
+	  width: 150%;
+	  left: 50%;
+	  transform: translate(-50%, 0);
+	  border-radius: 50%;
+	  border: 6px solid hsl(65, 100%, 36%);
+	  /* Use a conic gradient mask to hide and show the bits you want */
+	  --spread: 140deg;
+	  --start: 290deg;
+	  mask: conic-gradient(from var(--start), white 0 var(--spread), transparent var(--spread));
+	  
+	}
+
+
+
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hero-section .hero-text span {
+		font-size: 3rem;
+		color: #80A4ED;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	
+	.website {
+		text-align: left;
+		width: 20ch;
+		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		color: #fff;
+		-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+		overflow-wrap: break-word;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: bold;
+		font-size: 2.5em;
+	  }
+
+}
+
+@media only screen and (max-width: 767px) {
+	.website {
+		text-align: left;
+		width: 20ch;
+		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		color: #fff;
+		-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+		overflow-wrap: break-word;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: bold;
+		font-size: 2rem;
+		
+	  }
+	  .hero-section .hero-text span {
+		font-size: 3rem;
+		color: #80A4ED;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	.hero-text h6{
+		padding-bottom: 2em;
+	  }
+
 }
