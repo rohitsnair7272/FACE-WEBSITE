@@ -400,20 +400,13 @@ ol {
 }
 
 .hero-section .hero-text span {
-	font-size: 16px;
-	color: #f44949;
+	font-size: 6rem;
+	color: #80A4ED;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.hero-section .hero-text h2 {
-	font-size: 60px;
-	color: #ffffff;
-	line-height: 72px;
-	font-weight: 600;
-	margin-top: 24px;
-	margin-bottom: 35px;
-}
+
 
 /*---------------------
   Conter
@@ -2517,11 +2510,7 @@ ol {
 	.member-item .mi-text {
 		left: -1000px;
 	}
-	.bh-text h2,
-	.hero-section .hero-text h2 {
-		font-size: 40px;
-		line-height: normal;
-	}
+	
 	.counter-section .cd-timer .cd-item {
 		margin-right: 10px;
 		margin-left: 0;
@@ -2542,10 +2531,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
 	.bh-text h2,
-	.hero-section .hero-text h2 {
-		font-size: 36px;
-		line-height: normal;
-	}
+	
 	.newslatter-inner {
 		padding: 60px 20px 48px;
 	}
@@ -2594,4 +2580,127 @@ ol {
 		margin-bottom: 10px;
 		margin-left: 30px;
 	  }
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+  }
+  
+  .website {
+	text-align: left;
+	width: 30ch;
+	animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	color: #fff;
+	-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+	box-shadow: #000;
+	overflow-wrap: break-word;
+	font-style: bold;
+	overflow: hidden;
+	border-right: 3px solid;
+
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 4em;
+  }
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent}
+  }
+
+  .hero-text h6{
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+  }
+
+
+  .underlined {
+	/*   background: red; */
+	  position: relative;
+	}
+	
+	.underline-mask:after {
+	  content: 'F';
+	  position: absolute;
+	  top: 95%;
+	  width: 150%;
+	  left: 50%;
+	  transform: translate(-50%, 0);
+	  border-radius: 50%;
+	  border: 6px solid hsl(65, 100%, 36%);
+	  /* Use a conic gradient mask to hide and show the bits you want */
+	  --spread: 140deg;
+	  --start: 290deg;
+	  mask: conic-gradient(from var(--start), white 0 var(--spread), transparent var(--spread));
+	  
+	}
+
+
+
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hero-section .hero-text span {
+		font-size: 3rem;
+		color: #80A4ED;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	
+	.website {
+		text-align: left;
+		width: 20ch;
+		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		color: #fff;
+		-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+		overflow-wrap: break-word;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: bold;
+		font-size: 2.5em;
+	  }
+
+}
+
+@media only screen and (max-width: 767px) {
+	.website {
+		text-align: left;
+		width: 20ch;
+		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		color: #fff;
+		-webkit-text-stroke:#ffffff ;
+	-webkit-text-stroke-width: 0.1px;
+		overflow-wrap: break-word;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: bold;
+		font-size: 2rem;
+		
+	  }
+	  .hero-section .hero-text span {
+		font-size: 3rem;
+		color: #80A4ED;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	.hero-text h6{
+		padding-bottom: 2em;
+	  }
+
 }
