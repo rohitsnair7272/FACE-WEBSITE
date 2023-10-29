@@ -35,9 +35,10 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
   background-color: #fff;
 }
 
@@ -279,10 +280,13 @@ ol {
   Header
 -----------------------*/
 
+
+
 .header-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 
 .header-section.header-normal {
@@ -397,6 +401,8 @@ ol {
 
 .slicknav_menu {
   display: none;
+  align-items: center;
+  justify-content: center ;
 }
 
 /*---------------------
@@ -405,6 +411,10 @@ ol {
 
 .hero-section {
   padding-top: 55px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 16px;
+  
 }
 
 .hero-section .hero-text {
@@ -417,6 +427,11 @@ ol {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+/* .hero-section .set-bg{
+  margin-left: 16px;
+  margin-right: 16px;
+} */
 
 
 
@@ -2395,7 +2410,8 @@ ol {
 
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    /* max-width: 1170px; */
+    max-width: 100%;
   }
 }
 
@@ -2696,7 +2712,7 @@ ol {
 	font-style: bold;
 	overflow: hidden;
 	border-right: 3px solid;
-
+  animation-delay: 2s;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 4em;
   }
@@ -2765,6 +2781,7 @@ ol {
 		font-family: 'Times New Roman', Times, serif;
 		font-style: bold;
 		font-size: 2.5em;
+    animation-delay: 2s;
 	  }
 
 }
@@ -2784,6 +2801,7 @@ ol {
 		font-family: 'Times New Roman', Times, serif;
 		font-style: bold;
 		font-size: 2rem;
+    animation-delay: 2s;
 		
 	  }
 	  .hero-section .hero-text span {
@@ -2834,3 +2852,45 @@ ol {
 #content {
     display: none; /* Initially hide the content */
 }
+
+
+/* this is dev button */
+.devbutton {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+}
+
+.devbutton:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.devbutton::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.devbutton:hover::before {
+  width: 250%;
+}
+/* dev button ends here */
