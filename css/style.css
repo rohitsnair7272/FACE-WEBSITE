@@ -290,9 +290,10 @@ ol {
 }
 
 .logo {
+  width: 8vw;
   float: left;
-  padding-top: 36px;
-  padding-bottom: 37px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .logo a {
@@ -492,8 +493,9 @@ ol {
 }
 
 .ha-pic {
+  /*
   -webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
-  box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+  box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);*/
   margin-right: 30px;
 }
 
