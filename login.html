@@ -198,6 +198,41 @@ textarea {
 }
 
 
+
+@media (min-width: 1024px) {
+  .form {
+    max-width: 40%;
+    max-height: 20%;
+    padding: 20px;
+  }
+
+  .field-wrap {
+    margin-bottom: 20px;
+  }
+
+  /* Adjust the font size for placeholders and labels on smaller screens */
+  label {
+    font-size: 16px;
+  }
+
+  input, textarea {
+    font-size: 16px;
+  }
+
+  /* Adjust button text size and padding */
+  .button {
+    font-size: 1.5rem;
+    padding: 12px 0;
+  }
+
+ /* Reduce font size and padding for active labels */
+ label.active {
+  font-size: 11px;
+  transform: translateY(30px);
+}
+}
+
+
 /* Additional media queries for even smaller screens if necessary */
 
 
@@ -401,7 +436,7 @@ textarea {
     justify-content: space-around;
     align-items: center;
     /* Adjust the button size and padding for smaller screens */
-    --btn-padding: 0.5em 1em;
+    --btn-padding: 0.5em 4rem;
     --font-size: 14px;
   }
   .ui-btn span {
@@ -414,11 +449,46 @@ textarea {
 
   .form{
     margin-top: 30%;
+    height: fit-content;
+    width: fit-content;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+  .ui-btn {
+    justify-content: space-around;
+    align-items: center;
+    /* Adjust the button size and padding for smaller screens */
+    --btn-padding: 0.5em 4rem;
+    --font-size: 14px;
+  }
+  .ui-btn span {
+    /* ... Other CSS properties ... */
+    max-width: 50%;
+    white-space: nowrap;
+    /* ... Other CSS properties ... */
+  }
+
+
+  .form{ 
+    height: fit-content;
+    width: fit-content;
   }
 
 
 
 }
+
+
+
+
+
+
+
+
+
 </style>
 
 
