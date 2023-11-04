@@ -14,7 +14,7 @@ function hidePreloader() {
 }
 
 // Event listener to trigger the hidePreloader function after a specified time
-window.addEventListener("load", function() {
-    // Trigger the hidePreloader function after a delay
-    setTimeout(hidePreloader, 2000); // Adjust the delay (3 seconds in this example)
+window.addEventListener("load", function () {
+  // Trigger the hidePreloader function after a delay
+  setTimeout(hidePreloader, 2750); // Adjust the delay (3 seconds in this example)
 });
