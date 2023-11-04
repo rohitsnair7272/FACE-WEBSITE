@@ -182,28 +182,53 @@ ol {
 
 /* buttons */
 
+
+
+/* CSS */
 .primary-btn {
+  background-color: #fff;
+  border: 0.5px solid #1777f5;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
   font-weight: 600;
-  padding: 12px 40px;
-  margin-bottom: 8rem;
-  color: #ffffff;
+  line-height: 1;
+  padding: 1rem 1.6rem;
   text-align: center;
-  border-radius: 50px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#ee8425),
-      to(#f9488b)
-    ),
-    -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-  background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%),
-    -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-  background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%),
-    linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+
+.primary-btn:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .primary-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .primary-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
 
 .site-btn {
   font-size: 16px;
@@ -300,10 +325,11 @@ ol {
 }
 
 .logo {
-  width: 7vw;
+  width: 7%;
   float: left;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 1.5rem;
+  margin-left: 16px;
+  margin-bottom: 2rem;
 }
 
 .logo a {
@@ -2443,6 +2469,10 @@ ol {
   .cc-text {
     padding-top: 65px;
   }
+  .container {
+    /* max-width: 1170px; */
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -2544,6 +2574,12 @@ ol {
   #preloader img {
     width: 35%;
   }
+  .container {
+    /* max-width: 1170px; */
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 2em;
+  }
 }
 
 /* Large Mobile: 480px */
@@ -2581,7 +2617,7 @@ ol {
   .slicknav_menu {
     display: block;
     background: transparent;
-    padding: 0;
+    padding: 1rem;
   }
   .nav-menu .mainmenu {
     display: none;
@@ -2638,6 +2674,17 @@ ol {
   #preloader img {
     width: 35%;
   }
+  .container{
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 2em;
+  }
+
+  .logo{
+    margin-top: 2rem;
+    width: 5em;
+  }
+  
 }
 
 /* Small Mobile: 320px */
@@ -2813,13 +2860,15 @@ ol {
     padding-bottom: 2em;
   }
 
-  .logo {
+  /* .logo {
     float: left;
-    padding-top: 1.5rem;
+    top: 2rem;
+    left: 2rem;
+  
     padding-bottom: 1.5rem;
-    height: 3rem;
-    width: 4rem;
-  }
+    height: 1rem;
+    width: 0.8rem;
+  } */
 }
 
 #preloader {

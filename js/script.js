@@ -18,3 +18,18 @@ window.addEventListener("load", function () {
   // Trigger the hidePreloader function after a delay
   setTimeout(hidePreloader, 2750); // Adjust the delay (3 seconds in this example)
 });
+
+
+
+
+        // Get the button element by its id
+        var button = document.getElementById("login_signup redirect");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+            // Specify the URL you want to redirect to
+            var redirectTo = "login.html";
+
+            // Redirect to the specified URL
+            window.location.href = redirectTo;
+        });
