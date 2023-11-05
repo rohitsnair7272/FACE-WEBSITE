@@ -182,28 +182,53 @@ ol {
 
 /* buttons */
 
+
+
+/* CSS */
 .primary-btn {
+  background-color: #fff;
+  border: 0.5px solid #1777f5;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
   font-weight: 600;
-  padding: 12px 40px;
-  margin-bottom: 8rem;
-  color: #ffffff;
+  line-height: 1;
+  padding: 1rem 1.6rem;
   text-align: center;
-  border-radius: 50px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#ee8425),
-      to(#f9488b)
-    ),
-    -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-  background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%),
-    -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-  background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%),
-    linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+
+.primary-btn:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .primary-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .primary-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
 
 .site-btn {
   font-size: 16px;
@@ -216,14 +241,19 @@ ol {
 
 /* Preloder */
 
-#preloder {
+#preloader {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   top: 0;
   left: 0;
   z-index: 999999;
   background: #000;
+}
+
+#preloader img {
+  width: 10%;
+  height: 20%;
 }
 
 .loader {
@@ -282,8 +312,6 @@ ol {
   Header
 -----------------------*/
 
-
-
 .header-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,17 +319,17 @@ ol {
   background: transparent;
 }
 
-
 .header-section.header-normal {
   border-bottom: 1px solid #e5e5e5;
   box-shadow: #222;
 }
 
 .logo {
-  width: 7vw;
+  width: 7%;
   float: left;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 1.5rem;
+  margin-left: 16px;
+  margin-bottom: 2rem;
 }
 
 .logo a {
@@ -406,7 +434,7 @@ ol {
 .slicknav_menu {
   display: none;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
 }
 
 /*---------------------
@@ -417,7 +445,6 @@ ol {
   padding-top: 55px;
   padding-left: 16px;
   padding-right: 16px;
-  
 }
 
 .hero-section .hero-text {
@@ -430,8 +457,6 @@ ol {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-
 
 /*---------------------
   Conter
@@ -2444,6 +2469,10 @@ ol {
   .cc-text {
     padding-top: 65px;
   }
+  .container {
+    /* max-width: 1170px; */
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -2542,6 +2571,15 @@ ol {
     margin-bottom: 30px;
     margin-left: 30px;
   }
+  #preloader img {
+    width: 35%;
+  }
+  .container {
+    /* max-width: 1170px; */
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 2em;
+  }
 }
 
 /* Large Mobile: 480px */
@@ -2579,7 +2617,7 @@ ol {
   .slicknav_menu {
     display: block;
     background: transparent;
-    padding: 0;
+    padding: 1rem;
   }
   .nav-menu .mainmenu {
     display: none;
@@ -2633,6 +2671,20 @@ ol {
     margin-top: 10px;
     position: relative;
   }
+  #preloader img {
+    width: 35%;
+  }
+  .container{
+    max-width: 100%;
+    padding-left: 1.5em;
+    padding-right: 2em;
+  }
+
+  .logo{
+    margin-top: 2rem;
+    width: 5em;
+  }
+  
 }
 
 /* Small Mobile: 320px */
@@ -2690,39 +2742,40 @@ ol {
 }
 
 .wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: left;
-  }
-  
-  .website {
-	text-align: left;
-	width: 30ch;
-	animation: typing 5s steps(30), blink .5s step-end infinite alternate;
-	white-space: nowrap;
-	color: #fff;
-	-webkit-text-stroke:#ffffff ;
-	-webkit-text-stroke-width: 0.1px;
-	box-shadow: #000;
-	overflow-wrap: break-word;
-	font-style: bold;
-	overflow: hidden;
-	border-right: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.website {
+  text-align: left;
+  width: 30ch;
+  animation: typing 5s steps(30), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  color: #fff;
+  -webkit-text-stroke: #ffffff;
+  -webkit-text-stroke-width: 0.1px;
+  box-shadow: #000;
+  overflow-wrap: break-word;
+  font-style: bold;
+  overflow: hidden;
+  border-right: 3px solid;
   animation-delay: 2s;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
-  @keyframes typing {
-	from {
-	  width: 0
-	}
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-	  
-  @keyframes blink {
-	50% {
-	  border-color: transparent}
-  }
+}
 
 .hero-text h6 {
   padding-bottom: 1.5em;
@@ -2754,69 +2807,68 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.hero-section .hero-text span {
-		font-size: 3rem;
-		color: #f79256;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-	}
+  .hero-section .hero-text span {
+    font-size: 3rem;
+    color: #f79256;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 
-	
-	.website {
-		text-align: left;
-		width: 20ch;
-		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
-		white-space: nowrap;
-		color: #fff;
-		-webkit-text-stroke:#ffffff ;
-	-webkit-text-stroke-width: 0.1px;
-		overflow-wrap: break-word;
-		overflow: hidden;
-		border-right: 3px solid;
-		font-family: 'Times New Roman', Times, serif;
-		font-style: bold;
-		font-size: 2.5em;
+  .website {
+    text-align: left;
+    width: 20ch;
+    animation: typing 5s steps(30), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: 0.1px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+    font-size: 2.5em;
     animation-delay: 2s;
-	  }
-
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	.website {
-		text-align: left;
-		width: 20ch;
-		animation: typing 5s steps(30), blink .5s step-end infinite alternate;
-		white-space: nowrap;
-		color: #fff;
-		-webkit-text-stroke:#ffffff ;
-	-webkit-text-stroke-width: 0.1px;
-		overflow-wrap: break-word;
-		overflow: hidden;
-		border-right: 3px solid;
-		font-family: 'Times New Roman', Times, serif;
-		font-style: bold;
-		font-size: 2rem;
+  .website {
+    text-align: left;
+    width: 20ch;
+    animation: typing 5s steps(30), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: 0.1px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+    font-size: 2rem;
     animation-delay: 2s;
-		
-	  }
-	  .hero-section .hero-text span {
-		font-size: 3rem;
-		color: #f79256;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-	}
+  }
+  .hero-section .hero-text span {
+    font-size: 3rem;
+    color: #f79256;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 
   .hero-text h6 {
     padding-bottom: 2em;
   }
 
-  .logo {
+  /* .logo {
     float: left;
-    padding-top: 1.5rem;
+    top: 2rem;
+    left: 2rem;
+  
     padding-bottom: 1.5rem;
-    height: 3rem;
-    width: 4rem;
-  }
+    height: 1rem;
+    width: 0.8rem;
+  } */
 }
 
 #preloader {
@@ -2844,7 +2896,6 @@ ol {
 #content {
   display: none; /* Initially hide the content */
 }
-
 
 /* this is dev button */
 .devbutton {
