@@ -18,3 +18,4 @@ window.addEventListener("load", function () {
   // Trigger the hidePreloader function after a delay
   setTimeout(hidePreloader, 2750); // Adjust the delay (3 seconds in this example)
 });
+
