@@ -327,9 +327,9 @@ ol {
 .logo {
   width: 7%;
   float: left;
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   margin-left: 16px;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .logo a {
@@ -1192,7 +1192,7 @@ ol {
 
 .footer-col h4 {
   font-size: 20px;
-  color: #212B38;
+  color: #08c6ab;
   text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
@@ -1217,7 +1217,7 @@ ol {
 .footer-col ul li a {
   font-size: 18px;
   text-transform: capitalize;
-  color: #171822;
+  color: #08c6ab;
   text-decoration: none;
   font-weight: 300;
   display: block;
@@ -1225,7 +1225,7 @@ ol {
 }
 
 .footer-col ul li a:hover {
-  color: aqua;
+  color: orange;
   padding-left: 10px;
 }
 
