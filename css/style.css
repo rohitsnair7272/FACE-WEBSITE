@@ -174,10 +174,10 @@ ol {
 .price-item .tr-tag,
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
-  background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%),
-    -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-  background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%),
-    linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+  background-image: -o-linear-gradient(330deg, #726eff 0%, #5aefe7 100%),
+    -o-linear-gradient(330deg, #726eff  0%, #5aefe7 100%);
+  background-image: linear-gradient(120deg, #726eff  0%, #5aefe7 100%),
+    linear-gradient(120deg, #726eff  0%, #5aefe7 100%);
 }
 
 /* buttons */
@@ -187,7 +187,7 @@ ol {
 /* CSS */
 .primary-btn {
   background-color: #fff;
-  border: 0.5px solid #1777f5;
+  border: 1px solid #726eff;
   border-radius: 1.5rem;
   box-sizing: border-box;
   color: #0d172a;
@@ -209,8 +209,8 @@ ol {
 }
 
 .primary-btn:hover {
-  background-color: #1e293b;
-  color: #fff;
+  background-color: #212b38;
+  color: #726eff;
 }
 
 @media (min-width: 768px) {
@@ -419,7 +419,7 @@ ol {
   bottom: 36px;
   height: 2px;
   width: 100%;
-  background: #f44949;
+  background: #5aefe7;
   content: "";
   opacity: 0;
   -webkit-transition: all 0.3s;
@@ -453,7 +453,7 @@ ol {
 
 .hero-section .hero-text span {
   font-size: 6rem;
-  color: #f79256;
+  color: #726eff;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -1171,7 +1171,7 @@ ol {
   margin: 30px 0px;
   padding-bottom: 30px;
   padding-top: 30px;
-  background-color: #758173;
+  background-color: #374658;
 }
 
 .footer ul {
@@ -1192,7 +1192,7 @@ ol {
 
 .footer-col h4 {
   font-size: 20px;
-  color: #171822;
+  color: #212B38;
   text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
@@ -2435,6 +2435,7 @@ ol {
   .container {
     /* max-width: 1170px; */
     max-width: 100%;
+    
   }
 }
 
@@ -2795,7 +2796,7 @@ ol {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 50%;
-  border: 6px solid hsl(65, 100%, 36%);
+  border: 6px solid #5aefe7;
   /* Use a conic gradient mask to hide and show the bits you want */
   --spread: 140deg;
   --start: 290deg;
@@ -2809,7 +2810,7 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-section .hero-text span {
     font-size: 3rem;
-    color: #f79256;
+    color: #726eff;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -2851,7 +2852,7 @@ ol {
   }
   .hero-section .hero-text span {
     font-size: 3rem;
-    color: #f79256;
+    color: #726eff;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
