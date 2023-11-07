@@ -39,7 +39,7 @@ body {
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* font-smoothing: antialiased; */
-  background-color: #fff;
+  background-color: #212b38;
   overflow-x: hidden;
 }
 
@@ -82,7 +82,7 @@ h6 {
 p {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
-  color: #6a6b7c;
+  color: #ffffff;
   font-weight: 400;
   line-height: 28px;
   margin: 0 0 15px 0;
@@ -124,13 +124,13 @@ ol {
 .section-title h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #171822;
+  color: #5aefe7;
   margin-bottom: 10px;
 }
 
 .section-title p {
   font-size: 18px;
-  color: #6a6b7c;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -175,25 +175,25 @@ ol {
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
   background-image: -o-linear-gradient(330deg, #726eff 0%, #5aefe7 100%),
-    -o-linear-gradient(330deg, #726eff  0%, #5aefe7 100%);
-  background-image: linear-gradient(120deg, #726eff  0%, #5aefe7 100%),
-    linear-gradient(120deg, #726eff  0%, #5aefe7 100%);
+    -o-linear-gradient(330deg, #726eff 0%, #5aefe7 100%);
+  background-image: linear-gradient(120deg, #726eff 0%, #5aefe7 100%),
+    linear-gradient(120deg, #726eff 0%, #5aefe7 100%);
 }
 
 /* buttons */
 
-
-
 /* CSS */
 .primary-btn {
-  background-color: #fff;
+  background: linear-gradient(to right, #726eff 0%, #5aefe7 150%);
   border: 1px solid #726eff;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #0d172a;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
@@ -201,7 +201,7 @@ ol {
   text-align: center;
   text-decoration: none #0d172a solid;
   text-decoration-thickness: auto;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
   -webkit-user-select: none;
@@ -209,8 +209,8 @@ ol {
 }
 
 .primary-btn:hover {
-  background-color: #212b38;
-  color: #726eff;
+  background: linear-gradient(to left, #726eff 0%, #5aefe7 150%);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -220,15 +220,12 @@ ol {
   }
 }
 
-
 @media (max-width: 1024px) {
   .primary-btn {
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
 }
-
-
 
 .site-btn {
   font-size: 16px;
@@ -327,7 +324,7 @@ ol {
 .logo {
   width: 7%;
   float: left;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-left: 16px;
   margin-bottom: 0;
 }
@@ -405,7 +402,7 @@ ol {
 
 .nav-menu .mainmenu ul li a {
   font-size: 16px;
-  color: #171822;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   padding: 42px 0;
@@ -547,7 +544,7 @@ ol {
 }
 
 .ha-text h2 {
-  color: #171822;
+  color: #5aefe7;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 32px;
@@ -574,7 +571,7 @@ ol {
 
 .ha-text .ha-btn {
   font-size: 16px;
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
   position: relative;
 }
@@ -585,7 +582,7 @@ ol {
   bottom: -6px;
   height: 2px;
   width: 100%;
-  background: #f44949;
+  background: #08c6ab;
   content: "";
 }
 
@@ -640,7 +637,7 @@ ol {
 }
 
 .member-item .mi-text {
-  background: #ffffff;
+  background: #37465b;
   padding: 16px 0 18px 25px;
   position: absolute;
   left: -500px;
@@ -653,14 +650,14 @@ ol {
 
 .member-item .mi-text h5 {
   font-size: 20px;
-  color: #171822;
+  color: #ffff;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .member-item .mi-text span {
   font-size: 16px;
-  color: #f44949;
+  color: #5aefe7;
   display: block;
 }
 
@@ -926,7 +923,7 @@ ol {
 -----------------------*/
 
 .latest-blog {
-  background: #f4f6f8;
+  background: #212b38;
   padding-bottom: 160px;
 }
 
@@ -1168,7 +1165,7 @@ ol {
   -----------------------*/
 
 .footer {
-  margin: 30px 0px;
+  /* margin: 30px 0px; */
   padding-bottom: 30px;
   padding-top: 30px;
   background-color: #374658;
@@ -2435,7 +2432,6 @@ ol {
   .container {
     /* max-width: 1170px; */
     max-width: 100%;
-    
   }
 }
 
@@ -2675,17 +2671,16 @@ ol {
   #preloader img {
     width: 35%;
   }
-  .container{
+  .container {
     max-width: 100%;
     padding-left: 1.5em;
     padding-right: 2em;
   }
 
-  .logo{
+  .logo {
     margin-top: 2rem;
     width: 5em;
   }
-  
 }
 
 /* Small Mobile: 320px */
