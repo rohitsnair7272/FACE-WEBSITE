@@ -708,7 +708,7 @@ ol {
 }
 
 .schedule-tab .nav-tabs .nav-item .nav-link h5 {
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
 }
 
@@ -747,7 +747,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-text h4 {
-  color: #171822;
+  color: #08c6ab;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -756,7 +756,7 @@ ol {
   list-style: none;
   display: inline-block;
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   margin-right: 25px;
   position: relative;
 }
@@ -773,7 +773,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-text ul li i {
-  color: #f44949;
+  color: #726eff;
   font-size: 14px;
 }
 
@@ -784,14 +784,14 @@ ol {
 .schedule-tab .st-content .sc-widget li {
   list-style: none;
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   line-height: 32px;
   position: relative;
   padding-left: 22px;
 }
 
 .schedule-tab .st-content .sc-widget li i {
-  color: #f44949;
+  color: #726eff;
   position: absolute;
   left: 0;
   top: 7px;
