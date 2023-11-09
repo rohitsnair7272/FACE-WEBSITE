@@ -1105,12 +1105,12 @@ ol {
 
 .cs-text .ct-address span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
 }
 
 .cs-text .ct-address p {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 30px;
   margin-top: 8px;
 }
@@ -1121,7 +1121,7 @@ ol {
 
 .cs-text ul li {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 36px;
   list-style-type: none;
   display: inline-block;
@@ -1134,18 +1134,18 @@ ol {
 
 .cs-text ul li span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   display: block;
 }
 
 .cs-text .ct-links span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
 }
 
 .cs-text .ct-links p {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 30px;
   margin-top: 8px;
 }
@@ -1201,7 +1201,7 @@ ol {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: orange;
+  background-color: #5aefe7;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -1222,7 +1222,7 @@ ol {
 }
 
 .footer-col ul li a:hover {
-  color: orange;
+  color: #5aefe7;
   padding-left: 10px;
 }
 
@@ -1428,7 +1428,7 @@ ol {
 
 .breadcrumb-text h2 {
   font-size: 40px;
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 14px;
 }
@@ -1493,7 +1493,7 @@ ol {
 }
 
 .about-text h3 {
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -1779,7 +1779,7 @@ ol {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  color: #171822;
+  color: #e7e7e8;
 }
 
 .schedule-table-tab .nav-tabs .nav-item .nav-link.active {
@@ -1804,13 +1804,13 @@ ol {
 
 .schedule-table-tab .schedule-table-content table thead tr th strong {
   font-size: 24px;
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
 .schedule-table-tab .schedule-table-content table thead tr th span {
-  color: #f5523b;
+  color: #e5e5e5;
   font-size: 16px;
   display: block;
   font-weight: 400;
@@ -1828,13 +1828,13 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td h5 {
-  color: #171822;
+  color: #e7e7e8;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td p {
-  color: #171822;
+  color: #5aefe7;
   margin-bottom: 0;
 }
 
@@ -1844,7 +1844,7 @@ ol {
 
 .schedule-table-tab .schedule-table-content table tbody tr td.event-time {
   width: 140px;
-  color: #f44949;
+  color: #5aefe7;
   font-size: 24px;
   font-weight: 600;
 }
@@ -1854,8 +1854,8 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover {
-  background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-  background: linear-gradient(120deg, #ee8425, #f9488b);
+  background: -o-linear-gradient(330deg, #726eff, #5aefe7);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
 }
 
 .schedule-table-tab
