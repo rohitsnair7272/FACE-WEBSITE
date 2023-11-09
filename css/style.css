@@ -1178,7 +1178,7 @@ ol {
 
 .copyright {
   text-align: center;
-  color: #fff;
+  color: #5aefe7;
   margin-top: 40px;
 }
 
@@ -1201,7 +1201,7 @@ ol {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #5aefe7;
+  background-color: #726eff;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -1230,7 +1230,7 @@ ol {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
   margin-right: 10px;
   margin: 0 10px 10px 0;
   text-align: center;
@@ -1697,13 +1697,13 @@ ol {
 }
 
 .speaker-item .si-text .si-title h4 {
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
   margin-bottom: 13px;
 }
 
 .speaker-item .si-text .si-title span {
-  color: #f44949;
+  color: #ebebeb;
   font-size: 16px;
   display: block;
 }
@@ -1719,15 +1719,16 @@ ol {
   height: 40px;
   width: 40px;
   text-align: center;
-  line-height: 40px;
   background: #ebebeb;
+
+  line-height: 40px;
   border-radius: 50%;
   margin-right: 5px;
 }
 
 .speaker-item .si-text .si-social a:hover {
-  background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-  background: linear-gradient(120deg, #ee8425, #f9488b);
+  background: -o-linear-gradient(330deg, #726eff, #5aefe7);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
   color: #ffffff;
 }
 
