@@ -39,7 +39,7 @@ body {
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* font-smoothing: antialiased; */
-  background-color: #fff;
+  background-color: #212b38;
   overflow-x: hidden;
 }
 
@@ -82,7 +82,7 @@ h6 {
 p {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
-  color: #6a6b7c;
+  color: #ffffff;
   font-weight: 400;
   line-height: 28px;
   margin: 0 0 15px 0;
@@ -124,13 +124,13 @@ ol {
 .section-title h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #171822;
+  color: #5aefe7;
   margin-bottom: 10px;
 }
 
 .section-title p {
   font-size: 18px;
-  color: #6a6b7c;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -175,25 +175,25 @@ ol {
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
   background-image: -o-linear-gradient(330deg, #726eff 0%, #5aefe7 100%),
-    -o-linear-gradient(330deg, #726eff  0%, #5aefe7 100%);
-  background-image: linear-gradient(120deg, #726eff  0%, #5aefe7 100%),
-    linear-gradient(120deg, #726eff  0%, #5aefe7 100%);
+    -o-linear-gradient(330deg, #726eff 0%, #5aefe7 100%);
+  background-image: linear-gradient(120deg, #726eff 0%, #5aefe7 100%),
+    linear-gradient(120deg, #726eff 0%, #5aefe7 100%);
 }
 
 /* buttons */
 
-
-
 /* CSS */
 .primary-btn {
-  background-color: #fff;
+  background: linear-gradient(to right, #726eff 0%, #5aefe7 150%);
   border: 1px solid #726eff;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #0d172a;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
@@ -201,7 +201,7 @@ ol {
   text-align: center;
   text-decoration: none #0d172a solid;
   text-decoration-thickness: auto;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
   -webkit-user-select: none;
@@ -209,8 +209,8 @@ ol {
 }
 
 .primary-btn:hover {
-  background-color: #212b38;
-  color: #726eff;
+  background: linear-gradient(to left, #726eff 0%, #5aefe7 150%);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -220,15 +220,12 @@ ol {
   }
 }
 
-
 @media (max-width: 1024px) {
   .primary-btn {
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
 }
-
-
 
 .site-btn {
   font-size: 16px;
@@ -327,7 +324,7 @@ ol {
 .logo {
   width: 7%;
   float: left;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-left: 16px;
   margin-bottom: 0;
 }
@@ -405,7 +402,7 @@ ol {
 
 .nav-menu .mainmenu ul li a {
   font-size: 16px;
-  color: #171822;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   padding: 42px 0;
@@ -547,7 +544,7 @@ ol {
 }
 
 .ha-text h2 {
-  color: #171822;
+  color: #5aefe7;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 32px;
@@ -574,7 +571,7 @@ ol {
 
 .ha-text .ha-btn {
   font-size: 16px;
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
   position: relative;
 }
@@ -585,7 +582,7 @@ ol {
   bottom: -6px;
   height: 2px;
   width: 100%;
-  background: #f44949;
+  background: #08c6ab;
   content: "";
 }
 
@@ -640,7 +637,7 @@ ol {
 }
 
 .member-item .mi-text {
-  background: #ffffff;
+  background: #37465b;
   padding: 16px 0 18px 25px;
   position: absolute;
   left: -500px;
@@ -653,14 +650,14 @@ ol {
 
 .member-item .mi-text h5 {
   font-size: 20px;
-  color: #171822;
+  color: #ffff;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .member-item .mi-text span {
   font-size: 16px;
-  color: #f44949;
+  color: #5aefe7;
   display: block;
 }
 
@@ -711,7 +708,7 @@ ol {
 }
 
 .schedule-tab .nav-tabs .nav-item .nav-link h5 {
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
 }
 
@@ -750,7 +747,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-text h4 {
-  color: #171822;
+  color: #08c6ab;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -759,7 +756,7 @@ ol {
   list-style: none;
   display: inline-block;
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   margin-right: 25px;
   position: relative;
 }
@@ -776,7 +773,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-text ul li i {
-  color: #f44949;
+  color: #726eff;
   font-size: 14px;
 }
 
@@ -787,14 +784,14 @@ ol {
 .schedule-tab .st-content .sc-widget li {
   list-style: none;
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   line-height: 32px;
   position: relative;
   padding-left: 22px;
 }
 
 .schedule-tab .st-content .sc-widget li i {
-  color: #f44949;
+  color: #726eff;
   position: absolute;
   left: 0;
   top: 7px;
@@ -926,7 +923,7 @@ ol {
 -----------------------*/
 
 .latest-blog {
-  background: #f4f6f8;
+  background: #212b38;
   padding-bottom: 160px;
 }
 
@@ -1108,12 +1105,12 @@ ol {
 
 .cs-text .ct-address span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
 }
 
 .cs-text .ct-address p {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 30px;
   margin-top: 8px;
 }
@@ -1124,7 +1121,7 @@ ol {
 
 .cs-text ul li {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 36px;
   list-style-type: none;
   display: inline-block;
@@ -1137,18 +1134,18 @@ ol {
 
 .cs-text ul li span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
   display: block;
 }
 
 .cs-text .ct-links span {
   font-size: 16px;
-  color: #6a6b7c;
+  color: #fff;
 }
 
 .cs-text .ct-links p {
   font-size: 18px;
-  color: #171822;
+  color: #6a6b7c;
   line-height: 30px;
   margin-top: 8px;
 }
@@ -1168,7 +1165,7 @@ ol {
   -----------------------*/
 
 .footer {
-  margin: 30px 0px;
+  /* margin: 30px 0px; */
   padding-bottom: 30px;
   padding-top: 30px;
   background-color: #374658;
@@ -1181,7 +1178,7 @@ ol {
 
 .copyright {
   text-align: center;
-  color: #000;
+  color: #5aefe7;
   margin-top: 40px;
 }
 
@@ -1192,7 +1189,7 @@ ol {
 
 .footer-col h4 {
   font-size: 20px;
-  color: #08c6ab;
+  color: #fff;
   text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
@@ -1204,7 +1201,7 @@ ol {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: orange;
+  background-color: #726eff;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -1217,7 +1214,7 @@ ol {
 .footer-col ul li a {
   font-size: 18px;
   text-transform: capitalize;
-  color: #08c6ab;
+  color: #fff;
   text-decoration: none;
   font-weight: 300;
   display: block;
@@ -1225,7 +1222,7 @@ ol {
 }
 
 .footer-col ul li a:hover {
-  color: orange;
+  color: #5aefe7;
   padding-left: 10px;
 }
 
@@ -1233,7 +1230,7 @@ ol {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
   margin-right: 10px;
   margin: 0 10px 10px 0;
   text-align: center;
@@ -1431,7 +1428,7 @@ ol {
 
 .breadcrumb-text h2 {
   font-size: 40px;
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 14px;
 }
@@ -1496,7 +1493,7 @@ ol {
 }
 
 .about-text h3 {
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -1700,13 +1697,13 @@ ol {
 }
 
 .speaker-item .si-text .si-title h4 {
-  color: #171822;
+  color: #726eff;
   font-weight: 600;
   margin-bottom: 13px;
 }
 
 .speaker-item .si-text .si-title span {
-  color: #f44949;
+  color: #ebebeb;
   font-size: 16px;
   display: block;
 }
@@ -1722,15 +1719,16 @@ ol {
   height: 40px;
   width: 40px;
   text-align: center;
-  line-height: 40px;
   background: #ebebeb;
+
+  line-height: 40px;
   border-radius: 50%;
   margin-right: 5px;
 }
 
 .speaker-item .si-text .si-social a:hover {
-  background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-  background: linear-gradient(120deg, #ee8425, #f9488b);
+  background: -o-linear-gradient(330deg, #726eff, #5aefe7);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
   color: #ffffff;
 }
 
@@ -1782,7 +1780,7 @@ ol {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  color: #171822;
+  color: #e7e7e8;
 }
 
 .schedule-table-tab .nav-tabs .nav-item .nav-link.active {
@@ -1807,13 +1805,13 @@ ol {
 
 .schedule-table-tab .schedule-table-content table thead tr th strong {
   font-size: 24px;
-  color: #171822;
+  color: #5aefe7;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
 .schedule-table-tab .schedule-table-content table thead tr th span {
-  color: #f5523b;
+  color: #e5e5e5;
   font-size: 16px;
   display: block;
   font-weight: 400;
@@ -1831,13 +1829,13 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td h5 {
-  color: #171822;
+  color: #e7e7e8;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td p {
-  color: #171822;
+  color: #5aefe7;
   margin-bottom: 0;
 }
 
@@ -1847,7 +1845,7 @@ ol {
 
 .schedule-table-tab .schedule-table-content table tbody tr td.event-time {
   width: 140px;
-  color: #f44949;
+  color: #5aefe7;
   font-size: 24px;
   font-weight: 600;
 }
@@ -1857,8 +1855,8 @@ ol {
 }
 
 .schedule-table-tab .schedule-table-content table tbody tr td.hover-bg:hover {
-  background: -o-linear-gradient(330deg, #ee8425, #f9488b);
-  background: linear-gradient(120deg, #ee8425, #f9488b);
+  background: -o-linear-gradient(330deg, #726eff, #5aefe7);
+  background: linear-gradient(120deg, #726eff, #5aefe7);
 }
 
 .schedule-table-tab
@@ -2435,7 +2433,6 @@ ol {
   .container {
     /* max-width: 1170px; */
     max-width: 100%;
-    
   }
 }
 
@@ -2675,17 +2672,16 @@ ol {
   #preloader img {
     width: 35%;
   }
-  .container{
+  .container {
     max-width: 100%;
     padding-left: 1.5em;
     padding-right: 2em;
   }
 
-  .logo{
+  .logo {
     margin-top: 2rem;
     width: 5em;
   }
-  
 }
 
 /* Small Mobile: 320px */
@@ -2847,7 +2843,7 @@ ol {
     border-right: 3px solid;
     font-family: "Times New Roman", Times, serif;
     font-style: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
     animation-delay: 2s;
   }
   .hero-section .hero-text span {

@@ -7,7 +7,7 @@ function hidePreloader() {
   preloader.style.opacity = 0;
   setTimeout(function () {
     preloader.style.display = "none";
-  }, 1000); // Adjust the delay to match your video duration (1 second in this example)
+  }, 500); // Adjust the delay to match your video duration (1 second in this example)
 
   // Show the website content
   content.style.display = "block";
@@ -18,4 +18,3 @@ window.addEventListener("load", function () {
   // Trigger the hidePreloader function after a delay
   setTimeout(hidePreloader, 1000); // Adjust the delay (3 seconds in this example)
 });
-
