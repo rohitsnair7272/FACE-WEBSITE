@@ -2305,6 +2305,7 @@ ol {
 
 .contact-content-section {
   overflow: hidden;
+  display: flex;
 }
 
 .cc-text {
