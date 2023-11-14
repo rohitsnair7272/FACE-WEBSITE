@@ -115,6 +115,7 @@ label.highlight {
 }
 
 input, textarea {
+  --curve-size: .5em; /* Set your desired curve size */
   font-size: 22px;
   display: block;
   width: 100%;
@@ -126,6 +127,19 @@ input, textarea {
   color: #ffffff;
   border-radius: 0;
   transition: border-color .25s ease, box-shadow .25s ease;
+  clip-path: polygon(
+            /* Top-left */
+            0% var(--curve-size),
+
+            var(--curve-size) 0,
+            /* top-right */
+            100% 0,
+            100% calc(100% - var(--curve-size)),
+
+            /* bottom-right 1 */
+            calc(100% - var(--curve-size)) 100%,
+            /* bottom-right 2 */
+            0 100%);
 }
 input:focus, textarea:focus {
   outline: 0;
@@ -443,12 +457,29 @@ textarea {
   }
 
 
+}
 
+@media (min-width: 1024px) {
+  .ui-btn {
+    justify-content: space-around;
+    align-items: center;
+    /* Adjust the button size and padding for smaller screens */
+    --btn-padding: 0.5em 20%;
+    --font-size: 14px;
+  }
+  .ui-btn span {
+    /* ... Other CSS properties ... */
+    max-width: 50%;
+    white-space: nowrap;
+    /* ... Other CSS properties ... */
+  }
 
 
 
 
 }
+
+
 </style>
 
 

@@ -2758,7 +2758,7 @@ ol {
   font-style: bold;
   overflow: hidden;
   border-right: 3px solid;
-  animation-delay: 2s;
+  animation-delay: 1s;
   font-family: "Times New Roman", Times, serif;
   font-size: 4em;
 }
@@ -2770,7 +2770,7 @@ ol {
 }
 
 @keyframes blink {
-  50% {
+  0% ,50% {
     border-color: transparent;
   }
 }
