@@ -2847,14 +2847,14 @@ ol {
     animation-delay: 2s;
   }
   .hero-section .hero-text span {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #726eff;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
 
   .hero-text h6 {
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
   }
 
   /* .logo {
