@@ -661,6 +661,17 @@ ol {
   display: block;
 }
 
+.member-item .mi-text #infotext {
+  font-size: 11px;
+  color: #000;
+  display: block;
+  padding-right:0.5rem;
+  padding-top:0.5rem;
+  text-align: left;
+  color: #fff;
+}
+
+
 /*---------------------
   Schedule Section
 -----------------------*/
