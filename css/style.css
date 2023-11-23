@@ -665,12 +665,11 @@ ol {
   font-size: 11px;
   color: #000;
   display: block;
-  padding-right:0.5rem;
-  padding-top:0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
   text-align: left;
   color: #fff;
 }
-
 
 /*---------------------
   Schedule Section
@@ -1496,7 +1495,8 @@ ol {
 }
 
 .about-pic img {
-  min-width: 100%;
+  height: 50%;
+  width: 90%;
 }
 
 .about-text {
@@ -2781,7 +2781,8 @@ ol {
 }
 
 @keyframes blink {
-  0% ,50% {
+  0%,
+  50% {
     border-color: transparent;
   }
 }
